@@ -1,8 +1,10 @@
-
+# student_grade.py
 
 marks = int(input("Enter marks: "))
 
-if marks >= 85:
+if marks >= 95:
+    print("Grade: A+")
+elif marks >= 85:
     print("Grade: A")
 elif marks >= 75:
     print("Grade: B")
